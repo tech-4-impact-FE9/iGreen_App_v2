@@ -1,0 +1,29 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid .card{
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFE;
+    box-shadow: 0px 0.564022px 13.5365px 4.51218px rgba(20, 20, 20, 0.08);
+    border-radius: 9.02435px;
+}
+
+.container-fluid button{
+    border: none;
+    background: none;
+}
+
+.card .card-body label{
+    margin: 14px;
+}
+
+.card .card-body button{
+    background: #9EB23B;
+    border-radius: 27px;
+    color: white;
+    margin: 14px;
+}
