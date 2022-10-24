@@ -1,0 +1,57 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .card {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card img{
+    position: relative;
+    height: 294px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card .card-body h5{
+    position: absolute;
+    bottom: 400px;
+    left: 20px;
+    width: 50%;
+    color: white;
+}
+
+/* ============================================================================= */
+@media only screen and (max-width: 768px){
+    .card .card-img-top{
+        position: relative;
+        height: 294px;
+        border-radius: 16px 16px 0px 0px;
+    }
+
+    .card .card-body h5{
+        position: absolute;
+        bottom: 430px;
+        left: 20px;
+        width: 50%;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .card .card-img-top{
+        position: relative;
+        height: 294px;
+        border-radius: 16px 16px 0px 0px;
+    }
+
+    .card .card-body h5{
+        position: absolute;
+        bottom: 550px;
+        left: 20px;
+        width: 60%;
+        color: white;
+    }
+}
+

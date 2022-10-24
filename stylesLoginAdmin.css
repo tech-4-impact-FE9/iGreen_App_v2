@@ -1,0 +1,175 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    margin: 130px auto;
+    width: 80%;
+    height: 40%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0.368573px rgba(20, 20, 20, 0.04), 0px 0px 2.94858px rgba(20, 20, 20, 0.08);
+    border-radius: 5.89716px;
+}
+
+.header h1{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35.383px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #9EB23B;
+}
+
+.header p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.7943px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    color: #8A8A8A;
+}
+
+.loginForm label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+
+    color: #9EB23B;
+}
+
+.loginForm input{
+    /* Sky/White */
+
+    background: #FFFFFF;
+    border: 0.368573px solid #9EB23B;
+    border-radius: 2.94858px;
+}
+
+.loginForm a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 20px 0;
+    display: block;
+    /* identical to box height */
+
+    text-align: end;
+
+    color: #8A8A8A;
+}
+
+.loginForm .signin{
+    width: 100%;
+    height: 34px;
+    left: 392.52px;
+    top: 496.54px;
+    color: #fff;
+    border: none;
+    background: #9EB23B;
+    border-radius: 48px;
+}
+
+.loginForm .signin-google{
+    
+    box-sizing: border-box;
+    height: 34px;
+    width: 100%;
+
+    background: #FFFFFF;
+
+    border: 0.368573px solid #E3E5E6;
+    border-radius: 17.6915px;
+
+    margin: 10px 0 20px 0;
+}
+
+.loginForm span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #8A8A8A;
+}
+
+.loginForm span a{
+    color: #ECB390;
+}
+
+.login-right img{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0px 0px 0.368573px rgba(20, 20, 20, 0.04)) drop-shadow(0px 0px 2.94858px rgba(20, 20, 20, 0.08));
+    border-radius: 5.89716px;
+}
+
+/* Batas Responsive */
+
+@media only screen and (max-width: 768px) {
+    section {
+        margin: 130px auto;
+        /* width: 80%; */
+        height: 40%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 0.368573px rgb(20 20 20 / 4%), 0px 0px 2.94858px rgb(20 20 20 / 8%);
+        border-radius: 5.89716px;
+    }
+
+    .loginForm .signin-google{
+    
+        box-sizing: border-box;
+        height: 34px;
+        width: 100%;
+        font-size: 12px;
+        background: #FFFFFF;
+        border: 0.368573px solid #E3E5E6;
+        border-radius: 17.6915px;
+    
+        margin: 10px 0 20px 0;
+    }
+
+    .header p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.7943px;
+        line-height: 12px;
+        text-align: center;
+        margin-bottom: 5px;
+        
+        color: #8A8A8A;
+    }
+
+    .loginForm span{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+        text-align: center;
+    
+        color: #8A8A8A;
+    }
+
+    .loginForm a{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+        margin: 15px 0;
+        display: block;
+        /* identical to box height */
+    
+        text-align: end;
+    
+        color: #8A8A8A;
+    }
+    
+}
