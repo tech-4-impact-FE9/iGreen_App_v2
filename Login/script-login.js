@@ -36,7 +36,7 @@ signinButton.addEventListener("click", (e) => {
           .then(() => {
             // Data saved successfully!
              //alert("user telah sukses login");
-            location.href = "http://127.0.0.1:5500/index2.html";
+            location.href = "../index2.html";
           })
           .catch((error) => {
             //the write failed
